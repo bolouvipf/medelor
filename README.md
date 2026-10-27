@@ -1,6 +1,5 @@
 # medelor
 Dubbing tool that gives each character in a scene its own translated voice. Built for the Meta Global AI Developer Hackathon 2026.
-Voix par personnage
 
 A dubbing tool that separates speakers in a short clip, translates each character’s lines, and gives every character a distinct synthetic voice in the target language.
 
