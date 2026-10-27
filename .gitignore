@@ -1,0 +1,42 @@
+# .gitignore — Medelor (doublage voix par personnage)
+# Secrets / environnement
+.env
+.env.*
+*.key
+*.pem
+*.wav
+*.mp3
+*.mp4
+
+# OS / éditeur
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+
+# Logs — inspiré houetorwasm : tout ce qui est généré et traçé
+*.log
+logs/*.log
+logs/*.jsonl
+logs/*.json
+!logs/.gitkeep
+
+# Artefacts pipeline
+out/
+dist/
+tmp/
+temp/
+prototype/out/
+*.wat.lock
+
+# Dépendances
+node_modules/
+__pycache__/
+target/
+.venv/
+
+# Clips bruts — ne jamais committer (règle hackathon)
+clips/
+raw/
+samples/*.mp3
+samples/*.wav
